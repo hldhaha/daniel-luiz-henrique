@@ -6,4 +6,20 @@
 
 body {
     background-color: var(--cor-de-fundo);}
+
+    #equipe{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        text-align: center;
+    }
     
+    .foto-equipe{
+        width: 40%;
+    }
+header{
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: space-around;
+align-items: center;
+}
