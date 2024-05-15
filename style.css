@@ -2,18 +2,12 @@
     --cor-de-fundo: #000000;
 --texto: #ffffff;
 }   
-
-
-body {
-    background-color: var(--cor-de-fundo);}
-
-    #equipe{
+#equipe{
         display: grid;
         grid-template-columns: 33% 33% 33%;
         text-align: center;
     }
-    
-    .foto-equipe{
+.foto-equipe{
         width: 40%;
     }
 header{
